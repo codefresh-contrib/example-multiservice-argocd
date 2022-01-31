@@ -13,8 +13,8 @@ spec:
     name: in-cluster
   project: multiservice
   source:
-    path: ./apps/multiservice  # Directory that contains the child apps
-    repoURL: https://github.com/codefresh-contrib/example-multiservice-argocd.git
+    path: ./.argocd/apps/multiservice  # Directory that contains the child apps
+    repoURL: https://github.com/codefresh-contrib/example-multiservice-deploy2.git
     targetRevision: main
   syncPolicy:
     automated:
